@@ -1,0 +1,12 @@
+{
+  "name": "Ad Design Agent",
+  "id": "1604086303292685223",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "UI iframe needs WebSocket to localhost backend"
+  }
+}
