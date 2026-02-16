@@ -206,7 +206,7 @@ npx tsx src/server.ts
 
 1. In Figma, run the plugin: **Plugins > Development > Ad Design Agent**
 2. Select a brand/product from the dropdown
-3. Start chatting: *"Build a story ad for Sintra Buddy. Angle: parents have no time for themselves. Borrowed interface format."*
+3. Start chatting: *"Build a story ad. Angle: you track everything except your mouth. Borrowed interface format — make it look like a health app dashboard."*
 4. Watch the agent build the ad in real-time on your canvas
 
 ### Quick Test with Sample Data
