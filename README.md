@@ -164,8 +164,19 @@ cd shared && npm install && cd ..
 ```bash
 cd backend
 cp .env.example .env
-# Edit .env with your API keys and paths
 ```
+
+Edit `.env` with your API keys. To use the included sample data (Feno SmartBrush brand + 18 reference ads):
+
+```bash
+ANTHROPIC_API_KEY=your-key-here
+PORT=3001
+BRAND_DATA_ROOT=/absolute/path/to/figma-ad-agent/sample-data/brands
+AD_LIBRARY_ROOT=/absolute/path/to/figma-ad-agent/sample-data/ad-library
+FAL_KEY=your-fal-ai-token:secret   # Optional — only needed for image generation
+```
+
+> **Note:** The plugin works without a fal.ai key — you just won't be able to generate product photos or assets. The agent will still build layouts, apply typography, and design ads using placeholder frames.
 
 ### 3. Build the plugin
 
@@ -197,6 +208,14 @@ npx tsx src/server.ts
 2. Select a brand/product from the dropdown
 3. Start chatting: *"Build a story ad for Sintra Buddy. Angle: parents have no time for themselves. Borrowed interface format."*
 4. Watch the agent build the ad in real-time on your canvas
+
+### Quick Test with Sample Data
+
+The repo includes sample brand data (Feno SmartBrush) and a mini ad library (18 reference ads across 6 categories). See [`sample-data/README.md`](sample-data/README.md) for details.
+
+1. Point `BRAND_DATA_ROOT` and `AD_LIBRARY_ROOT` in your `.env` to the `sample-data/` directories
+2. Select **"Feno - SmartBrush"** in the plugin's brand dropdown
+3. Try: *"Build a story ad. Angle: you track everything except your mouth. Borrowed interface format — make it look like a health app dashboard."*
 
 ### Brand Data Structure
 
