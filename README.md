@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/placeholder-demo-video
 Professional ad design is locked behind three barriers:
 
 1. **Expertise** — Years of training in composition, typography, color theory, and brand systems
-2. **Cost** — Design agencies charge $100-500+ per ad concept. A DTC brand running 10 angles needs $5,00-2,5000.
+2. **Cost** — Design agencies charge $100-500+ per ad concept. A DTC brand running 10 angles needs $1,000-5,000.
 3. **Speed** — A senior designer takes 2-4 hours per polished ad concept. An agency takes days.
 
 AI image generators (Midjourney, DALL-E) can make pretty pictures, but they can't design *ads*. An ad needs structure: safe zones, typography hierarchy, product placement, brand consistency, and a concept that stops someone mid-scroll. That requires design *thinking*, not just image generation.
